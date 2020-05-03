@@ -160,10 +160,10 @@ while running:
     text7 = font4.render("3 X ="+str(amount_gold["Shuriken"]), True, (0, 0, 0))
     display.blit(text7, (570, 425))
     display.blit(gold_picture, (600, 560))
-    text9 = font3.render("Mise", True, (0, 0, 0))
-    display.blit(text9, (570, 520))
-    text10 = font2.render("10", True, (0, 0, 0))
-    display.blit(text10, (570, 580))
+    text8 = font3.render("Mise", True, (0, 0, 0))
+    display.blit(text8, (570, 520))
+    text9 = font2.render("10", True, (0, 0, 0))
+    display.blit(text9, (570, 580))
 
     #  Affichez l'action pour l'utilisateur
     info = font3.render("Pour jouer, appuyez sur la barre espace", True, (0, 0, 0))
